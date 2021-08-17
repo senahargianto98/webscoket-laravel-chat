@@ -17,3 +17,4 @@ use App\Http\Controllers\MessageController;
 
 Route::post('test', [MessageController::class, 'broadcast']);
 
+Route::get('testing', [MessageController::class, 'broadcastget']);
